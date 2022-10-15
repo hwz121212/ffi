@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libffi", "thirdparty\ffi-3.3\libffi.vcxproj", "{793F0ABE-66E5-48C0-9690-3060FF08AFF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{0AEC926A-D4E3-4C3D-B98C-D177D9A95512}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ffi", "thirdparty\ffi-3.3\ffi.vcxproj", "{9AD90AB9-9261-4F8F-8B6B-74DD0AD0AFD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{793F0ABE-66E5-48C0-9690-3060FF08AFF5}.Debug|x64.ActiveCfg = Debug|x64
+		{793F0ABE-66E5-48C0-9690-3060FF08AFF5}.Debug|x64.Build.0 = Debug|x64
+		{793F0ABE-66E5-48C0-9690-3060FF08AFF5}.Release|x64.ActiveCfg = Release|x64
+		{793F0ABE-66E5-48C0-9690-3060FF08AFF5}.Release|x64.Build.0 = Release|x64
+		{9AD90AB9-9261-4F8F-8B6B-74DD0AD0AFD7}.Debug|x64.ActiveCfg = Debug|x64
+		{9AD90AB9-9261-4F8F-8B6B-74DD0AD0AFD7}.Debug|x64.Build.0 = Debug|x64
+		{9AD90AB9-9261-4F8F-8B6B-74DD0AD0AFD7}.Release|x64.ActiveCfg = Release|x64
+		{9AD90AB9-9261-4F8F-8B6B-74DD0AD0AFD7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{793F0ABE-66E5-48C0-9690-3060FF08AFF5} = {0AEC926A-D4E3-4C3D-B98C-D177D9A95512}
+		{9AD90AB9-9261-4F8F-8B6B-74DD0AD0AFD7} = {0AEC926A-D4E3-4C3D-B98C-D177D9A95512}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
+	EndGlobalSection
+EndGlobal
